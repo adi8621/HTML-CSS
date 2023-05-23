@@ -1,0 +1,66 @@
+<style>
+ .Subscriber {
+    background-color:rgb(200, 0, 0);
+    border: none;
+    height: 32px;
+    color: white;
+    border-radius: 2px;
+    width:105px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+ }
+ .Subscriber:hover{
+    opacity: 0.8; 
+}
+ .Subscriber:active{
+    opacity: .1;
+ }
+  .Join {
+    background-color:rgb(255,255,255);
+    border-width: 0.5px;
+    border-color: rgb(51, 81, 218);
+    border-style: solid;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    color: rgb(51, 81, 218);
+    margin-right: 8px;
+    transition: background-color 0.15s, color 0.15s;
+    
+  }
+  .Join:hover{
+    background-color: rgb(51, 81, 218);
+    color:rgb(255,255,255) ;
+ }
+ .Join:active{
+    opacity: 0.7;
+ }
+
+  .Tweet {
+    background-color:rgba(65, 149, 246, 0.936);
+    border-width: 1px;
+    border-color: rgb(65, 149, 246);
+    border-style: solid;
+    height: 32px;
+    border-radius: 18px;
+    width: 75px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: box-shadow 0.15s;
+  }
+  .Tweet:active{
+    opacity: 0.6;
+  }
+  .Tweet:hover{
+    box-shadow: 0.5px 4px 5px rgba(0,0,0,0.18);
+  }
+</style>
+<button class="Subscriber">SUBSCRIBE</button>
+<button class="Join"> JOIN </button>
+<button class="Tweet"> Tweet </button>

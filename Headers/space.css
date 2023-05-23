@@ -1,0 +1,29 @@
+body{
+    color: rgb(41, 183, 244);
+    background-size: cover;
+    font-family: 'Orbitron',sans-serif;
+    text-align: center;
+}
+.hero{
+    font-family: inherit;
+    background-image: url("https://media.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif");
+    padding: 30px 20px; 
+
+}
+/*
+@font-face {
+    font-family: paradise;
+    src: url("PerfectParadise.ttf");
+}*/
+.btn{
+    font-family: inherit;
+    padding: 12px 6px;
+    border: none;
+    cursor: pointer;
+}
+#cta{
+    border-bottom: 3px solid white;
+}
+h1{
+    text-shadow: 2px -3px 1px black;
+}

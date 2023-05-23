@@ -1,0 +1,48 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+}
+.main{
+    margin: auto auto;
+    width: 500px;
+    background-color: rgb(147, 217, 238);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 10px solid rgb(244, 179, 255);
+    box-shadow: 4px 6px 3px rgb(87, 87, 87);
+}
+.main:hover{
+    cursor: pointer;
+}
+.info{
+    text-align: center;
+}
+img{
+    width: 30vh;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+.more:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 7vh;
+    padding: 0.5em 1em;
+    background-color: rgb(216, 206, 254);;
+
+}
+@media only screen and (max-width: 600px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        width:40vh;
+    }
+    .img{
+        width: 30vh;
+        margin-left: auto;
+        margin-right:auto ;
+    }
+  }

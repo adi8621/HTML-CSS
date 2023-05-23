@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(130, 175, 192);
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    position: top;
+    overflow: hidden;
+    border-radius: 30%;
+}
+.logoimg{
+    width: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30%;
+    box-shadow: 1px 1;
+}
+ul{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50vh;
+    overflow: hidden; 
+    background-color: rgb(234, 82, 95);   
+}
+/*
+--jasper: #d5573bff;
+--rose-taupe: #885053ff;
+--glaucous: #777da7ff;
+--cambridge-blue: #94c9a9ff;
+--tea-green: #c6ecaeff;
+*/
+li {
+    float: left;
+}
+li a{
+    display: flex;
+    padding: 10px 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+.mainDiv{
+    margin-top: 5vh;
+    width: 45vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid white;
+    display: block;
+    background-color: rgb(47, 197, 162);
+    box-shadow: 5px 4px 2px rgb(99, 99, 99);
+    
+}
+.img{
+    width: 200px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.Para1{
+    padding: 10px;
+    text-align: center;
+    text-indent: 20px;
+    letter-spacing: 1px;
+    word-spacing: 0.5em;
+    word-wrap: break-word;
+}
+.btn1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 12px;
+    background-color: rgba(255, 128, 49, 0.973);
+    border: none;
+    cursor: pointer;
+}
+.btn1:hover {
+    background-color: rgb(255, 155, 49);
+}
+.btn1:active{
+    background-color: rgb(247, 247, 247);
+    opacity: 0.7;
+}
+hr {
+        display: block;
+        height: 3px;
+        border: 0;
+        width: 60%;
+        border-top: 1px solid #ccc;
+        margin: 1em ayto;
+        padding: 0;
+}
+@media only screen and (max-width: 600px) {
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    ul li{
+        border: 1px solid rgb(97, 70, 70);
+        margin: 0.5vh 0;
+        border-radius: 5px;
+        padding:3px;
+    }
+}
